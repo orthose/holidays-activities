@@ -32,15 +32,17 @@
       
       // Enregistrement éventuel de commentaire
       if (isset($_REQUEST["activity"]) 
-        && isset($_REQUEST["pseudo"]) 
-        && isset($_REQUEST["comment"])) {
+        && isset($_REQUEST["pseudo"]) && $_REQUEST["pseudo"] !== "Votre Pseudo" 
+        && isset($_REQUEST["comment"]) && $_REQUEST["comment"] !== "Entrez un commentaire...") {
         for ($i = 0; $i < count($page); $i++) {
           if (isset($page[$i]["ul"])) {
             for ($j = 0; $j < count($page[$i]["ul"]); $j++) {
               if ($page[$i]["ul"][$j]["activity"] === $_REQUEST["activity"]) {
-                array_push($page[$i]["ul"][$j]["comments"],
-                  array("pseudo" => $_REQUEST["pseudo"], "comment" => $_REQUEST["comment"])
-                ); break;
+                $new_comment = array("pseudo" => htmlspecialchars(trim($_REQUEST["pseudo"])),
+                   "comment" => htmlspecialchars(trim($_REQUEST["comment"])));
+                if (!in_array($new_comment, $page[$i]["ul"][$j]["comments"])) {
+                  array_push($page[$i]["ul"][$j]["comments"], $new_comment);
+                } break;
               }
             }
           }

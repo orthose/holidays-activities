@@ -2,6 +2,7 @@
   {"h1": "Activités Vacances en Dordogne"},
   {"h2": "Les Grottes et Gouffres"},
   {"ul": [
+    {"activity": "Lascaux - Centre International de l'Art Pariétal", "link": "https://www.dordogne-perigord-tourisme.fr/decouverte/incontournables/sites-visites/lascaux/", "comments":[]},
     {"activity": "Grottes de Cougnac", "link": "https://www.perigord.com/listings/sites-touristiques-visites/grottes-de-cougnac/", "comments": []},
     {"activity": "Grottes de Rouffignac", "link": "https://www.perigord.com/listings/sites-touristiques-visites/grotte-de-rouffignac/", "comments": []},
     {"activity": "Grotte de Bara-Bahau", "link": "https://www.perigord.com/listings/sites-touristiques-visites/grotte-de-bara-bahau/", "comments": []},
@@ -22,10 +23,24 @@
   ]},
   {"h2": "Les Châteaux"},
   {"ul": [
+    {"activity": "Maison Forte de Reignac", "link": "https://www.dordogne-perigord-tourisme.fr/decouverte/incontournables/sites-visites/maison-reignac/", "comments":[]},
+    {"activity": "Château de Beynac", "link": "https://www.dordogne-perigord-tourisme.fr/decouverte/incontournables/sites-visites/chateau-beynac/", "comments":[]},
     {"activity": "Château de Fénelon", "link": "https://www.perigord.com/listings/sites-touristiques-visites/chateau-de-fenelon/", "comments": []}
   ]},
   {"h2": "Les Musées"},
   {"ul": [
+    {"activity": "Musée National de Préhistoire", "link": "https://www.dordogne-perigord-tourisme.fr/decouverte/incontournables/sites-visites/musee-national-prehistoire/", "comments":[]},
+    {"activity": "Le Parc du Thot", "link": "https://www.dordogne-perigord-tourisme.fr/decouverte/incontournables/sites-visites/parc-thot/", "comments":[]},
+    {"activity": "Pôle d'Interprétation de la Préhistoire", "link": "https://www.dordogne-perigord-tourisme.fr/decouverte/incontournables/sites-visites/pole-international-prehistoire/", "comments":[]},
     {"activity": "Musée de la rue du temps qui passe", "link": "https://www.perigord.com/listings/sites-touristiques-visites/musee-de-la-rue-du-temps-qui-passe/", "comments": []}
+  ]},
+  {"h2": "Le canoë/kayak"},
+  {"ul": [
+    {"activity": "Les incontournables du canoë", "link": "https://www.dordogne-perigord-tourisme.fr/decouverte/incontournables/canoe/", "comments": []},
+    {"activity": "Dordogne canoë", "link": "https://www.dordognecanoe.net/", "comments": []}
+  ]},
+  {"h2": "Autres visites"},
+  {"ul": [
+      {"activity": "Aquarium du Périgord Noir", "link": "https://www.dordogne-perigord-tourisme.fr/decouverte/incontournables/sites-visites/aquarium-perigord-noir/", "comments":[]}
   ]}
 ]

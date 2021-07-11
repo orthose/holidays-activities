@@ -1,8 +1,8 @@
 [
-  {"h1": "Activités vacances en Gironde"},
+  {"h1": "Activités Vacances en Gironde"},
   {"h2": "Complexes aquatiques"},
   {"ul": [
-    {"activity": "Aqualand", "link": "https://www.gironde-tourisme.fr/loisirs/aqualand/", "comments":[{"pseudo":"Maxime", "comment": "Je veux trop y aller c'est génial !"}]},
+    {"activity": "Aqualand", "link": "https://www.gironde-tourisme.fr/loisirs/aqualand/", "comments":[]},
     {"activity": "Splash Park Hourtin", "link": "https://www.gironde-tourisme.fr/loisirs/splash-park-a-hourtin/", "comments":[]},
     {"activity": "La Calinésie Centre aquatique du Libournais", "link": "https://www.gironde-tourisme.fr/loisirs/la-calinesie-centre-aquatique-du-libournais/", "comments":[]},
     {"activity": "Aqualiday", "link": "https://www.gironde-tourisme.fr/loisirs/aqualiday/", "comments":[]}

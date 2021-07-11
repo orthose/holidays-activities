@@ -22,6 +22,8 @@ syntaxe dans le JSON, une erreur sera renvoyée à l'utilisateur.
 De plus, pour être accessible la page doit être ajoutée dans la liste de liens de
 index.html, avec l'URL suivante : `requests.php?page=chemin-fichier`.
 Attention : n'indiquez pas l'extension .json sinon cela ne fonctionnera pas.
+Enfin, tous les fichiers .json de pages doivent être stockés dans le répertoire
+pages prévu à cet effet.
 
 La syntaxe d'une page JSON est une liste d'objets représentant des balises HTML.
 Trois objets sont implémentés, et doivent être imbriqués correctement.

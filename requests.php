@@ -30,7 +30,7 @@
   else {
     
     // Récupération du fichier JSON
-    $file = "./".$_REQUEST["page"].".json";
+    $file = "./pages/".$_REQUEST["page"].".json";
     $json = file_get_contents($file);
     
     // Fichier JSON non accessible

@@ -61,7 +61,7 @@ textarea {
   resize: none;
 }
 
-label, input, textarea {
+label, input, textarea, button {
   display: block;
   width: 98%;
   margin-left: auto;
@@ -69,6 +69,10 @@ label, input, textarea {
   align: center;
 }
 
-input[type="submit"] {
+button {
+  margin-top: 3px;
+}
+
+input[type="submit"], button {
   margin-bottom: 3px;
 }

@@ -8,6 +8,17 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="favicon.png" sizes="512x512">
   <link rel="apple-touch-icon" type="image/png" href="favicon.png" sizes="512x512">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function show_comment_input(tag) {
+      $(tag).next().show();
+      $(tag).attr("onClick", "hide_comment_input(this)");
+    }
+    function hide_comment_input(tag) {
+      $(tag).next().hide();
+      $(tag).attr("onClick", "show_comment_input(this)");
+    }
+  </script>
 </head>
 <body>
   <p id="accueil"><a href="index.html">Revenir à l'Accueil</a></p>
@@ -34,8 +45,11 @@
       
       // Enregistrement éventuel de commentaire
       if (isset($_REQUEST["activity"]) 
-        && isset($_REQUEST["pseudo"]) && $_REQUEST["pseudo"] !== "Votre Pseudo" 
-        && isset($_REQUEST["comment"]) && $_REQUEST["comment"] !== "Entrez un commentaire...") {
+        && isset($_REQUEST["pseudo"]) 
+        && $_REQUEST["pseudo"] !== "Votre Pseudo" && $_REQUEST["pseudo"] !== ""
+        && isset($_REQUEST["comment"]) 
+        && $_REQUEST["comment"] !== "Entrez un commentaire..."
+        && $_REQUEST["comment"] !== "") {
         for ($i = 0; $i < count($page); $i++) {
           if (isset($page[$i]["ul"])) {
             for ($j = 0; $j < count($page[$i]["ul"]); $j++) {
@@ -64,16 +78,17 @@
           // Liste de liens
           foreach($object["ul"] as $li) {
             echo "<li><a target='_blank' href='"
-            .$li["link"]."'>".$li["activity"]."</a>";
+            .$li["link"]."'>".$li["activity"]."</a><br>";
             // Liste de commentaires
             foreach($li["comments"] as $comment) {
               echo "<p class='comment'>".$comment["pseudo"]."&nbsp;:&nbsp;".$comment["comment"]."</p>";
             }
             // Entrée de commentaire
-            echo "<form action='requests.php' method='post' id='".$li["activity"]."'>";
+            echo "<button id='fold_input_comment' onClick='show_comment_input(this)'>Ajouter un Commentaire</button>";
+            echo "<form hidden action='requests.php' method='post' id='".$li["activity"]."'>";
             echo "<input type='hidden' name='activity' value='".$li["activity"]."'>";
             echo "<input type='hidden' name='page' value='".$_REQUEST["page"]."'>";
-            echo "<input type='text' name='pseudo' value='Votre Pseudo'><br>";
+            echo "<input type='text' name='pseudo' value='Votre pseudo'><br>";
             echo "<textarea name='comment' form='".$li["activity"]."'>Entrez un commentaire...</textarea><br>";
             echo "<input type='submit' value='Commenter'>";
             echo "</form></li>";

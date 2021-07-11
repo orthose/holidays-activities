@@ -26,7 +26,11 @@ ul {
   padding: 0px 0px;
 }
 
-li, #accueil {
+footer {
+  color: white;
+}
+
+li, #accueil, footer {
   text-align: center;
   background-color: deepskyblue;
   border: solid 3px dodgerblue;

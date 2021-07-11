@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="512x512">
+  <link rel="apple-touch-icon" type="image/png" href="favicon.png" sizes="512x512">
 </head>
 <body>
   <p id="accueil"><a href="index.html">Revenir à l'Accueil</a></p>
@@ -82,5 +84,8 @@
     }
   }
 ?>
+  <footer>
+    Site Web Personnel de Maxime Vincent | Juillet 2021 | <a href="https://github.com/orthose/holidays-activities">Code Source</a>
+  </footer>
 </body>
 </html>

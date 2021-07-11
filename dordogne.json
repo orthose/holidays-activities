@@ -1,0 +1,31 @@
+[
+  {"h1": "Activités Vacances en Dordogne"},
+  {"h2": "Les Grottes et Gouffres"},
+  {"ul": [
+    {"activity": "Grottes de Cougnac", "link": "https://www.perigord.com/listings/sites-touristiques-visites/grottes-de-cougnac/", "comments": []},
+    {"activity": "Grottes de Rouffignac", "link": "https://www.perigord.com/listings/sites-touristiques-visites/grotte-de-rouffignac/", "comments": []},
+    {"activity": "Grotte de Bara-Bahau", "link": "https://www.perigord.com/listings/sites-touristiques-visites/grotte-de-bara-bahau/", "comments": []},
+    {"activity": "Grotte du grand Roc", "link": "https://www.perigord.com/listings/sites-touristiques-visites/grottes-du-grand-roc/", "comments": []},
+    {"activity": "Gouffre de Proumeyssac", "link": "https://www.perigord.com/listings/sites-touristiques-visites/gouffre-de-proumeyssac/", "comments": []},
+    {"activity": "Gouffre de Padirac", "link": "https://www.perigord.com/listings/sites-touristiques-visites/gouffre-de-padirac/", "comments": []}
+  ]},
+  {"h2": "Les villages"},
+  {"ul": [
+    {"activity": "Village de la madeleine", "link": "https://www.perigord.com/listings/sites-touristiques-visites/village-de-la-madeleine-2/", "comments": []},
+    {"activity": "Belvès", "link": "https://www.perigord.com/listings/villes-et-villages/belves/", "comments": []},
+    {"activity": "Roque Saint Christophe", "link": "https://www.perigord.com/listings/sites-touristiques-visites/roque-saint-christophe/", "comments": []}
+  ]},
+  {"h2": "Les jardins"},
+  {"ul": [
+    {"activity": "Jardins Panoramiques de Limeuil", "link": "https://www.perigord.com/listings/sites-touristiques-visites/jardins-panoramiques-de-limeuil/", "comments": []},
+    {"activity": "Jardin Exotique de la Roque", "link": "https://www.perigord.com/listings/sites-touristiques-visites/jardin-exotique-de-la-roque-gageac/", "comments": []}
+  ]},
+  {"h2": "Les Châteaux"},
+  {"ul": [
+    {"activity": "Château de Fénelon", "link": "https://www.perigord.com/listings/sites-touristiques-visites/chateau-de-fenelon/", "comments": []}
+  ]},
+  {"h2": "Les Musées"},
+  {"ul": [
+    {"activity": "Musée de la rue du temps qui passe", "link": "https://www.perigord.com/listings/sites-touristiques-visites/musee-de-la-rue-du-temps-qui-passe/", "comments": []}
+  ]}
+]

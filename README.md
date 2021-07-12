@@ -12,7 +12,7 @@ d'envoi de commentaire.
 * Cloner le site sur un serveur pouvant exécuter PHP.
 `cd /var/www/html; git clone https://github.com/orthose/holidays-activities`
 * Vérifier que chaque fichier .json est accessible en lecture et écriture à PHP.
-`chmod o+rw *.json`
+`cd pages; chmod o+rw *.json`
 * Pour mettre à jour le site si des changements ont été effectués sur le dépôt
 `git pull`
 

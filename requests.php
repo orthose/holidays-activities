@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/png" href="favicon.png" sizes="512x512">
-  <link rel="apple-touch-icon" type="image/png" href="favicon.png" sizes="512x512">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="512x512">
+  <link rel="apple-touch-icon" type="image/png" href="images/favicon.png" sizes="512x512">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     function show_comment_input(tag) {
@@ -59,7 +59,8 @@
           for ($i = 0; $i < count($page); $i++) {
             if (isset($page[$i]["ul"])) {
               for ($j = 0; $j < count($page[$i]["ul"]); $j++) {
-                if ($page[$i]["ul"][$j]["activity"] === $_REQUEST["activity"]) {
+                if ($page[$i]["ul"][$j]["activity"] 
+                  === html_entity_decode($_REQUEST["activity"], ENT_QUOTES)) {
                   $new_comment = array("pseudo" => htmlspecialchars(trim($_REQUEST["pseudo"])),
                   "comment" => htmlspecialchars(trim($_REQUEST["comment"])));
                   if (!in_array($new_comment, $page[$i]["ul"][$j]["comments"])) {
@@ -72,17 +73,18 @@
           file_put_contents($file, json_encode($page, JSON_PRETTY_PRINT));
         }
         
-        foreach($page as $object) {
-          if (isset($object["h1"])) {
-            echo "<h1>".$object["h1"]."</h1>";
+        // Lecture du JSON et transcription en HTML
+        foreach($page as $tag) {
+          if (isset($tag["h1"])) {
+            echo "<h1>".$tag["h1"]."</h1>";
           }
-          else if (isset($object["h2"])) {
-            echo "<h2>".$object["h2"]."</h2>";
+          else if (isset($tag["h2"])) {
+            echo "<h2>".$tag["h2"]."</h2>";
           }
-          else if (isset($object["ul"])) {
+          else if (isset($tag["ul"])) {
             echo "<ul>";
             // Liste de liens
-            foreach($object["ul"] as $li) {
+            foreach($tag["ul"] as $li) {
               echo "<li><a target='_blank' href='"
               .$li["link"]."'>".$li["activity"]."</a><br>";
               // Liste de commentaires
@@ -90,12 +92,13 @@
                 echo "<p class='comment'>".$comment["pseudo"]."&nbsp;:&nbsp;".$comment["comment"]."</p>";
               }
               // Entrée de commentaire
+              $activity = htmlentities($li["activity"], ENT_QUOTES); // Échapper les quotes
               echo "<button id='fold_input_comment' onClick='show_comment_input(this)'>Ajouter un Commentaire</button>";
-              echo "<form hidden action='requests.php' method='post' id='".$li["activity"]."'>";
-              echo "<input type='hidden' name='activity' value='".$li["activity"]."'>";
+              echo "<form hidden action='requests.php' method='post' id='".$activity."'>";
+              echo "<input type='hidden' name='activity' value='".$activity."'>";
               echo "<input type='hidden' name='page' value='".$_REQUEST["page"]."'>";
               echo "<input type='text' name='pseudo' value='Votre pseudo'><br>";
-              echo "<textarea name='comment' form='".$li["activity"]."'>Entrez un commentaire...</textarea><br>";
+              echo "<textarea name='comment' form='".$activity."'>Entrez un commentaire...</textarea><br>";
               echo "<input type='submit' value='Commenter'>";
               echo "</form></li>";
             }

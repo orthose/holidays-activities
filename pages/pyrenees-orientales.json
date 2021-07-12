@@ -1,0 +1,18 @@
+[
+  {"h1": "Activités Vacances en Pyrénées Orientales"},
+  {"h2": "Les activités incontournables"},
+  {"ul": [
+    {"activity": "Collioure", "link": "https://www.tourisme-pyreneesorientales.com/collioure", "comments": []},
+    {"activity": "Le train jaune", "link": "https://www.tourisme-pyreneesorientales.com/le-train-jaune-0", "comments": []},
+    {"activity": "Canigó Grand Site", "link": "https://www.tourisme-pyreneesorientales.com/canigo-grand-site", "comments": []},
+    {"activity": "Orgues d'Ille-sur-Têt", "link": "https://www.tourisme-pyreneesorientales.com/orgues-dille-sur-tet", "comments": []},
+    {"activity": "Site classé des Bouillouses", "link": "https://www.tourisme-pyreneesorientales.com/site-classe-des-bouillouses", "comments": []},
+    {"activity": "Site classé de l'anse de Paulilles", "link": "https://www.tourisme-pyreneesorientales.com/site-classe-de-lanse-de-paulilles", "comments": []},
+    {"activity": "Abbaye Saint-Martin du Canigó", "link": "https://www.tourisme-pyreneesorientales.com/abbaye-saint-martin-du-canigo", "comments": []},
+    {"activity": "Céret", "link": "https://www.tourisme-pyreneesorientales.com/ceret", "comments": []},
+    {"activity": "Mémorial du Camp de Rivesaltes", "link": "https://www.tourisme-pyreneesorientales.com/memorial-du-camp-de-rivesaltes", "comments": []},
+    {"activity": "Forteresse de Salses", "link": "https://www.tourisme-pyreneesorientales.com/forteresse-de-salses", "comments": []},
+    {"activity": "Palais des Rois de Majorque", "link": "https://www.tourisme-pyreneesorientales.com/palais-des-rois-de-majorque", "comments": []},
+    {"activity": "Musée de préhistoire de Tautavel", "link": "https://www.tourisme-pyreneesorientales.com/musee-de-prehistoire-de-tautavel", "comments": []}
+  ]}
+]

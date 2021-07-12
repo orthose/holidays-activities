@@ -1,3 +1,20 @@
+/* Téléphone toute la largeur de l'écran */
+@media (max-width < 500px) {
+  body {
+    width: 100%;
+  }
+}
+
+/* Ordinateur taille maximale de 500px */
+@media (width >= 500px){
+  body {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 body {
   font-family: "Ubuntu";
 }

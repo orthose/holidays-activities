@@ -1,0 +1,44 @@
+[
+  {"h1": "Activités Vacances dans le Lot"},
+  {"h2": "Les sites incontournables"},
+  {"ul": [
+    {"activity": "Le gouffre de Padirac", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/lieux-d-exception/gouffre-de-padirac", "comments": []},
+    {"activity": "Le Pont Valentré", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/lieux-d-exception/le-pont-valentre", "comments": []},
+    {"activity": "La Grotte du Pech Merle", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/lieux-d-exception/grotte-du-pech-merle", "comments": []}
+  ]},
+  {"h2": "Les grands sites d'Occitanie"},
+  {"ul": [
+    {"activity": "Cahors ‑ Vallée du Lot", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/grands-sites-d-occitanie/vallee-du-lot-cahors-saint-cirq-lapopie-puy-l-eveque", "comments": []},
+    {"activity": "Rocamadour ‑ Vallée de la Dordogne", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/grands-sites-d-occitanie/rocamadour-vallee-de-la-dordogne", "comments": []},
+    {"activity": "Figeac ‑ Vallées du Lot et du Célé", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/grands-sites-d-occitanie/figeac-vallees-du-lot-et-du-cele", "comments": []}
+  ]},
+  {"h2": "Les plus beaux villages"},
+  {"ul": [
+    {"activity": "Autoire", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/plus-beaux-villages-du-lot/autoire", "comments": []},
+    {"activity": "Loubressac", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/plus-beaux-villages-du-lot/loubressac", "comments": []},
+    {"activity": "Carennac", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/plus-beaux-villages-du-lot/carennac", "comments": []},
+    {"activity": "Capdenac le Haut", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/plus-beaux-villages-du-lot/capdenac-le-haut", "comments": []},
+    {"activity": "Cardaillac", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/plus-beaux-villages-du-lot/cardaillac", "comments": []},
+    {"activity": "Saint‑Cirq‑Lapopie", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/plus-beaux-villages-du-lot/saint-cirq-lapopie", "comments": []}
+  ]},
+  {"h2": "Les randonnées pédestres"},
+  {"ul": [
+    {"activity": "Toutes les infos sur les randonnées dans le Lot", "link": "https://www.tourisme-lot.com/decouvrir/activites-nature/randonnee-pedestre", "comments": []},
+    {"activity": "Le Top 5 des petites randonnées du Lot", "link": "https://www.tourisme-lot.com/balades-et-randonnees/balades-a-pied/le-top-5-des-petites-randonnees-du-lot", "comments": []},
+    {"activity": "Les Espaces Naturels Sensibles", "link": "https://www.tourisme-lot.com/balades-et-randonnees/balades-a-pied/espaces-naturels-sensibles", "comments": []},
+    {"activity": "Appli Circuits Lot & Dordogne", "link": "https://www.tourisme-lot.com/pratique/le-lot-sur-votre-telephone-mobile", "comments": []},
+    {"activity": "Balades et randonnées", "link": "https://www.tourisme-lot.com/balades-et-randonnees", "comments": []}
+  ]},
+  {"h2": "Les spots de canoë/kayak"},
+  {"ul": [
+    {"activity": "Toutes les infos sur le canoë dans le Lot", "link": "https://www.tourisme-lot.com/decouvrir/activites-nature/canoe", "comments": []}
+  ]},
+  {"h2": "La spéléologie"},
+  {"ul": [
+    {"activity": "Toutes les infos sur la spéléologie dans le Lot", "link": "https://www.tourisme-lot.com/activites-et-loisirs/speleologie-dans-le-lot", "comments": []}
+  ]},
+  {"h2": "Se baigner en eau naturelle"},
+  {"ul": [
+    {"activity": "Toutes les infos pour se baigner dans le Lot", "link": "https://www.tourisme-lot.com/les-incontournables-du-lot/activites-nature/se-baigner-en-eau-naturelle", "comments": []}
+  ]}
+]
